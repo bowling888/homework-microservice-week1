@@ -149,7 +149,7 @@ docker compose up -d --build csharp
 
 ## Logs
 
-ไฟล์ log จะถูกเขียนลง `./logs/` บนเครื่องโฮสต์ (ถูก mount เข้า containers ที่ `/logs`)
+ไฟล์ log จะถูกเก็บตาม Path นี้
 
 ตัวอย่าง:
 - `logs/rust.log`
