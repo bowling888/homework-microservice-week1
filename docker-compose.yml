@@ -1,0 +1,122 @@
+services:
+  rust:
+    platform: linux/amd64
+    build: ./rust
+    ports:
+      - "8001:8080"
+    environment:
+      FIRST_NAME: "${FIRST_NAME}"
+      LAST_NAME: "${LAST_NAME}"
+      NICK_NAME: "${NICK_NAME}"
+      LANGUAGE_VALUE: "${LANGUAGE_RUST}"
+      LOG_FILE: "${LOG_FILE_RUST}"
+    volumes:
+      - ./logs:/logs
+  java:
+    platform: linux/amd64
+    build: ./java
+    ports:
+      - "8002:8080"
+    environment:
+      FIRST_NAME: "${FIRST_NAME}"
+      LAST_NAME: "${LAST_NAME}"
+      NICK_NAME: "${NICK_NAME}"
+      LANGUAGE_VALUE: "${LANGUAGE_JAVA}"
+      LOG_FILE: "${LOG_FILE_JAVA}"
+    volumes:
+      - ./logs:/logs
+  go:
+    platform: linux/amd64
+    build: ./go
+    ports:
+      - "8003:8080"
+    environment:
+      FIRST_NAME: "${FIRST_NAME}"
+      LAST_NAME: "${LAST_NAME}"
+      NICK_NAME: "${NICK_NAME}"
+      LANGUAGE_VALUE: "${LANGUAGE_GO}"
+      LOG_FILE: "${LOG_FILE_GO}"
+    volumes:
+      - ./logs:/logs
+  bash:
+    platform: linux/amd64
+    build: ./bash
+    ports:
+      - "8004:8080"
+    environment:
+      FIRST_NAME: "${FIRST_NAME}"
+      LAST_NAME: "${LAST_NAME}"
+      NICK_NAME: "${NICK_NAME}"
+      LANGUAGE_VALUE: "${LANGUAGE_BASH}"
+      LOG_FILE: "${LOG_FILE_BASH}"
+    volumes:
+      - ./logs:/logs
+  dart:
+    platform: linux/amd64
+    build: ./dart
+    ports:
+      - "8005:8080"
+    environment:
+      FIRST_NAME: "${FIRST_NAME}"
+      LAST_NAME: "${LAST_NAME}"
+      NICK_NAME: "${NICK_NAME}"
+      LANGUAGE_VALUE: "${LANGUAGE_DART}"
+      LOG_FILE: "${LOG_FILE_DART}"
+    volumes:
+      - ./logs:/logs
+  javascript:
+    platform: linux/amd64
+    build: ./javascript
+    ports:
+      - "8006:8080"
+    environment:
+      FIRST_NAME: "${FIRST_NAME}"
+      LAST_NAME: "${LAST_NAME}"
+      NICK_NAME: "${NICK_NAME}"
+      LANGUAGE_VALUE: "${LANGUAGE_JAVASCRIPT}"
+      LOG_FILE: "${LOG_FILE_JAVASCRIPT}"
+    volumes:
+      - ./logs:/logs
+  python:
+    platform: linux/amd64
+    build: ./python
+    ports:
+      - "8007:8080"
+    environment:
+      FIRST_NAME: "${FIRST_NAME}"
+      LAST_NAME: "${LAST_NAME}"
+      NICK_NAME: "${NICK_NAME}"
+      LANGUAGE_VALUE: "${LANGUAGE_PYTHON}"
+      LOG_FILE: "${LOG_FILE_PYTHON}"
+    volumes:
+      - ./logs:/logs
+  php:
+    platform: linux/amd64
+    image: php:8.3-cli
+    ports:
+      - "8008:8080"
+    environment:
+      FIRST_NAME: "${FIRST_NAME}"
+      LAST_NAME: "${LAST_NAME}"
+      NICK_NAME: "${NICK_NAME}"
+      LANGUAGE_VALUE: "${LANGUAGE_PHP}"
+      LOG_FILE: "${LOG_FILE_PHP}"
+    volumes:
+      - ./logs:/logs
+      - ./php/public:/public:ro
+    command: ["php", "-S", "0.0.0.0:8080", "-t", "/public"]
+  csharp:
+    platform: linux/amd64
+    build:
+      context: ./csharp
+      dockerfile: "Dockerfile"
+    ports:
+      - "8009:8080"
+    environment:
+      FIRST_NAME: "${FIRST_NAME}"
+      LAST_NAME: "${LAST_NAME}"
+      NICK_NAME: "${NICK_NAME}"
+      LANGUAGE_VALUE: "${LANGUAGE_CSHARP}"
+      LOG_FILE: "${LOG_FILE_CSHARP}"
+    volumes:
+      - ./logs:/logs

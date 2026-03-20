@@ -1,0 +1,13 @@
+/Users/apple/Docker/Microservice/csharp/bin/Release/net8.0/csharp_service.deps.json
+/Users/apple/Docker/Microservice/csharp/bin/Release/net8.0/csharp_service.runtimeconfig.json
+/Users/apple/Docker/Microservice/csharp/bin/Release/net8.0/csharp_service.dll
+/Users/apple/Docker/Microservice/csharp/bin/Release/net8.0/csharp_service.pdb
+/Users/apple/Docker/Microservice/csharp/obj/Release/net8.0/csharp_service.GeneratedMSBuildEditorConfig.editorconfig
+/Users/apple/Docker/Microservice/csharp/obj/Release/net8.0/csharp_service.AssemblyInfoInputs.cache
+/Users/apple/Docker/Microservice/csharp/obj/Release/net8.0/csharp_service.AssemblyInfo.cs
+/Users/apple/Docker/Microservice/csharp/obj/Release/net8.0/csharp_service.csproj.CoreCompileInputs.cache
+/Users/apple/Docker/Microservice/csharp/obj/Release/net8.0/csharp_service.dll
+/Users/apple/Docker/Microservice/csharp/obj/Release/net8.0/refint/csharp_service.dll
+/Users/apple/Docker/Microservice/csharp/obj/Release/net8.0/csharp_service.pdb
+/Users/apple/Docker/Microservice/csharp/obj/Release/net8.0/csharp_service.genruntimeconfig.cache
+/Users/apple/Docker/Microservice/csharp/obj/Release/net8.0/ref/csharp_service.dll

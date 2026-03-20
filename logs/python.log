@@ -1,0 +1,2 @@
+2026-03-21 00:32:42.093 +07:00 [python] GET / -> {"first_name": "นิฤมล", "last_name": "ทดสอบ", "nick_name": "Test", "language": "python"}
+2026-03-21 00:32:48.854 +07:00 [python] GET / -> {"first_name": "นิฤมล", "last_name": "ทดสอบ", "nick_name": "Test", "language": "python"}

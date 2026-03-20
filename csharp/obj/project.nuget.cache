@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "CzhxO9GLEYA=",
+  "success": true,
+  "projectFilePath": "/Users/apple/Docker/Microservice/csharp/csharp_service.csproj",
+  "expectedPackageFiles": [
+    "/var/folders/p5/tspq27l96_90y5dd3k_h4z280000gn/T/cursor-sandbox-cache/6f9dad0ebac6651a63326c83f0f7ecff/nuget/microsoft.netcore.app.ref/8.0.11/microsoft.netcore.app.ref.8.0.11.nupkg.sha512",
+    "/var/folders/p5/tspq27l96_90y5dd3k_h4z280000gn/T/cursor-sandbox-cache/6f9dad0ebac6651a63326c83f0f7ecff/nuget/microsoft.aspnetcore.app.ref/8.0.11/microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512",
+    "/var/folders/p5/tspq27l96_90y5dd3k_h4z280000gn/T/cursor-sandbox-cache/6f9dad0ebac6651a63326c83f0f7ecff/nuget/microsoft.netcore.app.host.osx-arm64/8.0.11/microsoft.netcore.app.host.osx-arm64.8.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}

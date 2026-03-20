@@ -1,0 +1,4 @@
+/Users/apple/Docker/Microservice/csharp/bin/Release/net8.0/publish/csharp_service.dll
+/Users/apple/Docker/Microservice/csharp/bin/Release/net8.0/publish/csharp_service.deps.json
+/Users/apple/Docker/Microservice/csharp/bin/Release/net8.0/publish/csharp_service.runtimeconfig.json
+/Users/apple/Docker/Microservice/csharp/bin/Release/net8.0/publish/csharp_service.pdb

@@ -1,0 +1,2 @@
+﻿2026-03-21 00:30:28.952 +07:00 [csharp] startup. TcpListener listening on :8080
+2026-03-21 00:33:09.338 +07:00 [csharp] GET / -> {"first_name":"\u0E19\u0E34\u0E24\u0E21\u0E25","last_name":"\u0E17\u0E14\u0E2A\u0E2D\u0E1A","nick_name":"Test","language":"csharp"}
